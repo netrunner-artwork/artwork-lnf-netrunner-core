@@ -29,8 +29,7 @@ rightButton.writeEntry("remove", "true");
 delete rightButton;
 delete actionPlugins;
 
-var id = createActivity("Netrunner Desktop", "org.kde.plasma.folder")
-var desktopsArray = desktopsForActivity(id);
+var desktopsArray = desktopsForActivity(currentActivity());
 
 for (var j = 0; j < desktopsArray.length; j++) {
     desktopsArray[j].wallpaperPlugin = 'org.kde.color'
