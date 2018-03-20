@@ -9,3 +9,6 @@ Containment=org.kde.plasma.folder
 
 [plasmarc][Theme]
 name=BlackX
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
