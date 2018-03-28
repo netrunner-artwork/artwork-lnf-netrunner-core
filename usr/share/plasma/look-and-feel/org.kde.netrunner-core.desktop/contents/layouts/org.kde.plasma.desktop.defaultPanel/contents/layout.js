@@ -35,7 +35,7 @@ yakuakeIcon.currentConfigGroup = ["General"]
 yakuakeIcon.writeConfig("applicationName", "Yakuake")
 yakuakeIcon.writeConfig("genericName", "Drop-down Terminal")
 yakuakeIcon.writeConfig("iconName", "yakuake")
-yakuakeIcon.writeConfig("url", "file:///usr/share/applications/org.kde.yakuake.desktop")
+yakuakeIcon.writeConfig("url", "file:///usr/share/default-settings/plasma5-profile/applications/org.kde.yakuake.desktop")
 
 panel.addWidget('org.kde.plasma.volumewin7mixer')
 panel.addWidget("org.kde.plasma.systemtray")
