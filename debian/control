@@ -7,6 +7,7 @@ Standards-Version: 3.7.2
 
 Package: artwork-lnf-netrunner-core
 Architecture: all
+Multi-Arch: foreign
 Replaces: netrunner-artwork (<< 1.1.49)
 Breaks: netrunner-artwork (<< 1.1.49)
 Depends: artwork-wallpapers-netrunner-core, plasma-widget-volumewin7mixer
